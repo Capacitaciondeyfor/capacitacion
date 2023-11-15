@@ -1,0 +1,150 @@
+
+body {
+    background-color: rgba(25, 135, 84, 1);
+    padding-top: 90px;
+    background: -webkit-linear-gradient(to right, #ffffff, #ffefba); /* Chrome 10-25, Safari 5.1-6 */
+    background:  rgba(25, 135, 84, 1); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-size: 16px;
+}
+section{
+    color: white;
+    text-shadow: 2px 2px 4px black;
+    background-color: rgba(25, 135, 84, 1);
+    font-family: 'Comic Sans MS', cursive;
+    font-style: italic;
+    font-size: 20px;
+    background: -webkit-linear-gradient;
+    min-height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 100px;
+    display: flex;
+    justify-content: space-around;
+  
+}
+#botonc{
+    margin: 10px;
+}
+footer{
+    font-size: 20px;    
+    color: white;
+    text-shadow: 2px 2px 4px black;
+}
+
+#fondo-ser{
+    
+    border-top: 5px solid white;
+    border-bottom: 5px white;
+}
+#certificate{
+    font-family: 'Helveticah', Arial;
+    color: white;
+    text-shadow: 2px 2px 4px black;
+    margin: 40px;
+    border-color: #ffefba;
+    
+}
+#red{
+    color: white;
+    text-shadow: 2px 2px 4px black;
+    text-decoration: none;
+  font-size: 18px;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  background: #314652;
+  color: #f1f1f1;
+  border-radius: 50%;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+  transition: all .4s ease-in-out;
+}
+#red:hover{
+    transform: scale(1.2);
+}
+
+img.logo{
+    max-width: 100%;
+    height: auto;
+    display: block; /* Esto elimina el espacio adicional debajo de la imagen */
+    margin: 0 auto;
+    width: 50px;
+    height: 50px;
+}
+.portada{
+    background-image:url("../img/portada.png");
+    height: 300px;
+    
+   
+}
+.cur{
+    background-size: cover;
+            background-position: center;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+ 
+   
+}
+.form-control {
+    
+ margin-top: 8%;
+
+}
+.texto-portada{
+    padding-top: 40px;
+    margin-right: 20px;
+    text-align: right;
+    font-family: 'Comic Sans MS', cursive;
+    font-style: italic;
+    color: white;
+    text-shadow: 2px 2px 4px black;
+   
+}
+
+
+#contenido{
+    
+    margin-top: 20px;
+    background-color: rgba(25, 135, 84, 1);
+}
+.navbar-brand{
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.nav-link {
+    font-weight: 600;
+    color: #ffffff;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+.card:hover {
+    opacity: 0.7;
+}
+
+.card-text {
+    text-align: justify;
+}
+
+#txtComment {
+    resize: none;
+}
+nav{
+    position: fixed;
+     top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+@media (max-width: 576px) {
+    .card-text {
+        font-size: 0.8rem;
+    }
+}
